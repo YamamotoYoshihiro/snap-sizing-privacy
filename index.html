@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>SnapSizing サポートページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        "Segoe UI", sans-serif;
+      line-height: 1.7;
+      background: #f5f5f7;
+      color: #1d1d1f;
+    }
+    .page {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+    main {
+      max-width: 800px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 32px 24px 28px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-top: 0;
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin-top: 1.8rem;
+      border-left: 4px solid #007aff;
+      padding-left: 0.6rem;
+    }
+    p { margin: 0.6rem 0; }
+    ul { margin: 0.4rem 0 0.8rem 1.4rem; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #6e6e73;
+      text-align: right;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 24px 16px 20px;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .page { padding: 16px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main>
+      <h1>SnapSizing サポートページ</h1>
+
+      <p>
+        本ページは、iPhone アプリ「SnapSizing（スナップサイジング）」に関する
+        お問い合わせ窓口およびサポート情報を提供するためのページです。
+      </p>
+
+      <h2>1. アプリ概要</h2>
+      <p>
+        SnapSizing は、服と定規などを一緒に撮影した写真から、
+        服の各部位の長さを簡単に測定できる採寸サポートアプリです。
+        フリマ出品やネット通販でのサイズ確認にご利用いただけます。
+      </p>
+
+      <h2>2. よくあるご質問</h2>
+      <ul>
+        <li>定規など、30cm 以上の基準となる長さを必ず一緒に撮影してください。</li>
+        <li>できるだけ真上から撮影し、服と定規が同じ平面上に並ぶようにしてください。</li>
+        <li>測定結果はあくまで目安です。重要な採寸には実物のメジャーも併用してください。</li>
+      </ul>
+
+      <h2>3. お問い合わせ先</h2>
+      <p>アプリの不具合、ご意見・ご要望などは、以下のメールアドレスまでご連絡ください。</p>
+      <p>
+        開発者：山本 義弘<br>
+        メールアドレス：
+        <a href="mailto:ys.systemlab@gmail.com">ys.systemlab@gmail.com</a>
+      </p>
+
+      <h2>4. プライバシーポリシー</h2>
+      <p>
+        本アプリのプライバシーポリシーについては、以下のページをご確認ください。<br>
+        <a href="https://yamamotoyoshihiro.github.io/snap-sizing-privacy/" target="_blank" rel="noopener">
+          SnapSizing プライバシーポリシー
+        </a>
+      </p>
+
+      <div class="footer">
+        最終更新日：2025年12月4日
+      </div>
+    </main>
+  </div>
+</body>
+</html>
