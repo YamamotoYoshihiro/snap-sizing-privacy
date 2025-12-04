@@ -1,0 +1,2 @@
+# snap-sizing-privacy
+スナップサイジングのプライバシーポリシー
